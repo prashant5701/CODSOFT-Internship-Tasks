@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.container{
+    background-color: rgb(30, 21, 41);
+    width: 287px;   
+    margin:auto;
+}
+
+ h2{
+    color:rgb(163, 136, 136);
+    text-align: center;
+    font-family:  Courier, monospace , sans-serif;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    grid-gap:5px;
+    padding: 15px;
+}
+
+.btn{
+    border : 2px solid black ;
+    padding : 15px;
+    background-color: rgb(142, 149, 155);
+}
+
+#zero{
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+
+input{
+    height: 36px;
+    width: 246px;
+    margin: 11px 0px 0px 16px;
+    border-radius: 8px;
+    background-color: rgb(199, 207, 214);
+
+}
+
+
+.btn:hover{
+background-color: rgb(40, 24, 54);
+}
+
+.btn:active{
+background-color:rgb(100, 54, 24);
+}
