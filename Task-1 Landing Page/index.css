@@ -1,0 +1,763 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------
+below code for navbar */
+#section {
+    /* border: 2px solid rgba(112, 91, 91, 0.447);*/
+    border: 2px solid red;
+    background-color: rgba(113, 78, 78, 0.386);
+    z-index: 5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items {
+    border: 2px solid #7e3e3e;
+    background: url("images/img12.jpg");
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px green;
+    margin-left: 2em;
+}
+
+.nav-items:hover {
+    background: url("");
+    color: rgb(120, 91, 91);
+    background-color: #1b1b41;
+}
+
+.nav-items:active {
+    box-shadow: 0px 0px 0px;
+    background-color: #4c4c7b;
+}
+
+#home {
+    margin-left: 210px;
+    ;
+}
+
+#buy-now {
+    margin-left: 20vw;
+}
+
+.img-logo {
+    height: 38px;
+    width: 124px;
+    padding: 0px;
+    margin: 10px 0px 7px 20px;
+    /* display: inline; */
+    position: absolute;
+}
+
+#nav-search {
+    height: 38px;
+    width: 120px;
+    padding: 0px;
+    margin: 10px 0px 7px 5em;
+    border-radius: 20px
+}
+
+#nav-btn {
+    height: 26px;
+    width: 32px;
+    margin: 17px 0px 0px -1px;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+/* above code for navbar */
+/* --------------------------------------------------------------------------------------------------------
+below code for container 1 (we are creative)*/
+
+#container1-background-img {
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.container1 {
+    color: rgb(205, 171, 171);
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    border-left: 5px solid grey;
+    padding-left: 10px;
+
+}
+
+#container1-para1 {
+    font-size: 40px;
+    text-shadow: 6px 6px rgb(45 45 138);
+    font-family: Impact, 'Times New Roman', Times, serif;
+    /* border: 2px solid red;; */
+    margin: 10px 0px 50px 0px;
+
+}
+
+#container1-para2 {
+    font-size: 18px;
+    /* color: blueviolet; */
+
+}
+
+
+/* animation started for container1  */
+/*------------------------------------------------------------------------------------------------------------------
+ Animation for container 1(we are creative) */
+
+#we-are-creative-container {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    /* place-items: center; */
+    /* border: 2px solid red; */
+    height: 87px;
+    width: 70%;
+    text-shadow: 2px 2px green;
+
+}
+
+#container1-we-are-creative {
+    text-align: left;
+    /* border: 2px solid blue; */
+    width: 22ch;
+    animation: typing 6s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    /* animation-delay: 4s; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+
+    33% {
+        width: 100%;
+    }
+
+    66% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+/* animation after we are creative text (container1 para1 )*/
+
+#container1-para1 {
+    /* font-size: 16px; */
+    animation-name: container1-ptag;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes container1-ptag {
+    0% {
+        text-shadow: 4px 4px rgba(0, 0, 255, 0.306);
+        color: rgb(65, 73, 73);
+    }
+
+    50% {
+        text-shadow: 4px 4px rgb(9, 84, 233);
+        color: rgb(181, 203, 203)
+    }
+
+    100% {
+        text-shadow: 4px 4px rgba(98, 0, 255, 0.315);
+        color: rgb(65, 73, 73);
+
+    }
+
+}
+
+/* buttons css */
+.container1-btn {
+    background: url("images/img12.jpg");
+    padding: 8px;
+    border-radius: 15px 0px 15px 0px;
+    margin: 31px 0px 10px 48px;
+    box-shadow: 0 8px 16px 0 rgba(236, 15, 15, 0.2), 0 6px 20px 0 rgba(236, 4, 4, 0.19);
+    cursor: pointer;
+
+    animation-name: btns-anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btns-anime {
+    0% {
+        padding: 10px;
+        margin-bottom: 6px;
+    }
+
+    50% {
+        padding: 13px;
+        margin-bottom: 0px;
+        ;
+    }
+
+    100% {
+        padding: 10px;
+        margin-bottom: 6px;
+    }
+}
+
+/* above code for container1  */
+/* --------------------------------------------------------------------------------------------------------
+below code for container2 (launch business) (online support team) (time management) */
+
+#container2-background-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 304px;
+    ;
+}
+
+.container2 {
+    /* border: 2px solid red; */
+    color: white;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 15px 0px 17px 82px;
+    /* background-color:#324a4a; */
+}
+
+
+.container2-div {
+    /* border:2px solid black; */
+    height: 217px;
+    width: 320px;
+    /* background-color: rgb(0, 0, 0); */
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 15px;
+}
+
+.container2-div:hover {
+    background-color: rgba(39, 45, 45, 0.265);
+    cursor: pointer;
+
+}
+
+.container2-div:active {
+    background-color: rgba(39, 45, 45, 0.63);
+    cursor: pointer;
+
+}
+
+.container2-div h2 {
+    position: relative;
+    left: 10px;
+    top: -10px;
+    display: inline;
+}
+
+.time-management-logo {
+    position: relative;
+    display: inline;
+    height: 61px;
+    width: 59px;
+    top: 10px;
+    /* border: 2px solid red; */
+}
+
+/* above code for container2  */
+/* --------------------------------------------------------------------------------------------------------
+below code for about us  */
+.container3-aboutus {
+    color: white;
+    /* background-color: #1b1b41; */
+    /* border: 2px solid red; */
+    background: url("images/img11.jpg");
+
+}
+
+#aboutus-div1 {
+    background-color: #1b1b41;
+    display: inline-block;
+    height: 300px;
+    width: 700px;
+    border: 10px solid #2f3d56;
+    box-shadow: 10px 10px 40px green;
+    font-size: 17px;
+    text-align: justify;
+    padding: 10px;
+    position: relative;
+    top: -71px;
+    margin-left: 200px;
+    /* left :-20px; */
+    /* background-color: pink; */
+
+}
+
+#aboutus-div1 h3 {
+    font-size: 28px;
+    /* text-align:center; */
+}
+
+
+#aboutus-div2 {
+    height: 300px;
+    width: 250px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+    top: 62px;
+    left: -213px;
+    /* background-color: green; */
+}
+
+#aboutus-div2 img {
+    height: 397px;
+    width: 380px;
+    position: absolute;
+    top: -12px;
+}
+
+.container3-aboutus h1 {
+    text-shadow: 3px 3px 3px green;
+    margin-left: 46%;
+    margin-top: 0px;
+    /* padding-left: 20px; */
+    /* background-color: #1b1b41; */
+}
+
+#aboutus-btn {
+    position: absolute;
+    margin-left: 0px;
+    ;
+}
+
+/* animation for about us  ------------------------------------------------------------------------------*/
+
+#aboutus-div1 h3 {
+    font-size: 28px;
+    /* font-size: 16px; */
+    animation-name: container1-ptag;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes container1-ptag {
+    0% {
+        text-shadow: 4px 4px rgba(0, 0, 255, 0.306);
+        color: rgb(65, 73, 73);
+    }
+
+    50% {
+        text-shadow: 4px 4px rgb(9, 84, 233);
+        color: rgb(181, 203, 203)
+    }
+
+    100% {
+        text-shadow: 4px 4px rgba(98, 0, 255, 0.315);
+        color: rgb(65, 73, 73);
+
+    }
+
+}
+
+/* above code for about us */
+/* --------------------------------------------------------------------------------------------------------
+Below code for our services  */
+#Services-heading {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: bisque;
+    text-shadow: 4px 4px 4px green;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+#container4-background img {
+    position: absolute;
+    z-index: -1;
+    height: 389px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#services-outside-container {
+    /* border:2px solid blue; */
+    margin: 0px;
+}
+
+.container4-services h1 {
+    margin-top: 0px;
+    border: 2px solid rgb(255, 0, 115);
+    background-color: black;
+}
+
+.container4-services {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+    z-index: 2;
+}
+
+.container4-box {
+    color: white;
+    /* border: 2px solid blue; */
+    margin: 5px;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    box-shadow: #2f405c 10px 10px 20px;
+}
+
+#services-heading {
+    color: white;
+}
+
+#container4-box1 {}
+
+body>h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container4-box img {
+    /* border : 2px solid pink; */
+    height: 151px;
+    width: 247px;
+}
+
+.container4-box p {
+    margin: 0px;
+    /* border: 2px solid red;   */
+}
+
+
+.container4-box:hover {
+    background-color: rgba(39, 45, 45, 0.265);
+    cursor: pointer;
+}
+
+.container4-box:active {
+    background-color: rgba(39, 45, 45, 0.63);
+    cursor: pointer;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------
+below code for footer */
+
+#container5 img {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#container5 {
+    /* padding: 20px 0px 30px 0px; */
+    /* background-color: black; */
+    /* background-color:rgb(146 108 108); */
+    border: 2px solid red;
+    margin: 0px;
+    height: 80px;
+}
+
+.footer-items {
+    margin: 0px;
+    border-left: 4px solid palevioletred;
+    border-right: 4px solid palevioletred;
+
+    background-color: #575889;
+    /* padding:0px 0px 0px 0px; */
+    position: relative;
+    padding: 30px 2px 30px 2px;
+    top: 32px;
+    border-radius: 20px;
+}
+
+#twiter {
+    margin-left: 10%;
+    border-left: 4px solid palevioletred;
+}
+
+#footer-call {
+    display: inline;
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+
+#footer-gmail {
+    display: inline;
+    /* margin-left:100px; */
+    cursor: pointer;
+
+}
+
+/* code for responsiveness ---------------------------------------------------------------------------------- */
+
+/* @media only screen and (min-width: 300px) and (max-width:500px){
+
+} */
+/* for navbar--------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width:1000px) and (max-width:1200px) {
+    .nav-items {
+        margin-left: 5px;
+        ;
+    }
+
+    #buy-now {
+        margin-left: 200px;
+    }
+
+    #nav-search {
+        margin-left: 5px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:1002px){
+    .img-logo{
+        display: none;
+    }
+    #home{
+        margin:0px;
+     
+    }
+    #contact-us{
+white-space: pre    ;
+    }
+    .nav-items{
+        margin: 4px;px;
+    }
+    #buy-now{
+       margin-left: 0px;;
+    }
+
+    #nav-search{
+     display: none;
+    }
+    #nav-btn{
+     display: none;
+       
+    }
+}
+
+
+/* for we are creative----------------------------------------------------------------------------------------- */
+@media only screen and (min-width:0px) and (max-width:506px){
+    #we-are-creative-container{
+    font-size: 8px;
+
+    }
+#container1-para1{
+    font-size: 20px;
+}
+#container1-para2{
+    font-size: 12px;;
+}
+.container1-btn{
+    margin:0px;
+}
+
+}
+
+
+
+@media only screen and (min-width:0px) and (max-width:1200px) {
+    /* ------------------------------------------------------------------------------------------------------------- */
+    /* only for container 2 section (launch business) oninesupport time management */
+    .container2 {
+        grid-template-columns: 1fr;
+        height: 100%;
+
+        /* padding-left: 20em; */
+        /* background-color: #694141ea; */
+    }
+    #container2-background-img{
+   /* display: none; */
+height:910px;
+    }
+
+}
+@media only screen and (min-width:0px) and (max-width:450px){
+    .container2-div p{
+        display: none;
+        /* padding: 0px; */
+    }
+    .container2-div img{
+        /* display: block; */
+        margin-left: 15vh;
+        margin-bottom: 20px;
+        width:50%;
+    }
+    .container2-div h2{
+        display: block;
+       text-align: center;
+
+    }
+    .container2{
+        padding: 0px;;
+    }
+
+}
+@media only screen and (min-width:0px) and (max-width:370px){
+    .container2-div h2{
+       display: block;
+       font-size: 12px;
+    }
+    
+    .container2-div {
+        margin:0px;
+        height: auto;
+        width: auto;
+    }
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width:1050px) and (max-width:1238px) {
+
+    /* for about us section  */
+    #aboutus-div1 {
+        margin-left: 13px;
+    }
+
+}
+
+@media only screen and (min-width:0px) and (max-width:1050px) {
+    /* for about us section  */
+
+    #aboutus-div2 {
+        display: none;
+    }
+
+    #aboutus-div2 img {
+        display: none;
+    }
+
+    #aboutus-div1 {
+          
+        box-shadow: 10px 10px 40px rgb(54, 59, 54);
+        position: static;
+        margin: 0px;
+        width: auto;
+        height: auto;
+        display: block;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    #aboutus-btn {
+        position: static;
+        margin-left: 0px;
+        ;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:417px) {
+#aboutus-div1 h3{
+font-size: 15px;
+}
+#aboutus-div1 p{
+    font-size: 10px;
+    }
+
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width:0px) and (max-width:1110px) {
+
+    /* only for our services */
+    .container4-services {
+        grid-template-columns: 1fr;
+        height: 100%;
+        /* padding-left:20em; */
+    }
+
+    #container4-background img {
+        /* height: 100em; */
+        height: 910px;
+
+    }
+
+}
+@media only screen and (min-width:0px) and (max-width:400px) {
+
+    .container4-box p {
+        display: none;
+        }
+        .container4-box img{
+            width:100px;
+            height: 100px;
+        }
+        .container4-box{
+            height: auto;
+            width: auto;
+        }
+        #container4-background img {
+            /* height: 100em; */
+            height: 736px;
+    
+        }
+
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width:0px) and (max-width:865px){
+    /* for footer only */
+
+    .footer-items {
+        /* position:static; */
+        margin :0px;!important
+        padding:0px;!important
+    }
+    #twiter {
+    margin:0px;}
+    
+    #footer-call {
+        display: none;}
+    
+    #footer-gmail {
+        display: none; }
+}
+@media only screen and (min-width:0px) and (max-width:360px)
+{   .footer-items {
+    font-size: 8px;}
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+@media only screen and (min-width:0px) and (max-width:865px){
+/* for we are creative (container1) */
+.container1{
+    position: static;
+    margin-right: 30px;
+}
+}
