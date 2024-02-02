@@ -1,1 +1,1 @@
-These tasks I done during web development internship in codsoft.
+These tasks were done during my web development internship at Codsoft.
